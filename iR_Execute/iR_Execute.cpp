@@ -124,9 +124,9 @@ bool remove_recursive(int value, node ** h)
     if ((*h)->value == value)
     {
         node * next_node = (*h)->next;
-        (*h)->next == nullptr;
-        *h == next_node;
-        isNodeRemoved == true;
+        (*h)->next = nullptr;
+        *h = next_node;
+        isNodeRemoved = true;
     }
     else
     {
@@ -237,6 +237,7 @@ int main()
 
     // Remove nodes
     remove(0, &root_node);
+    remove_recursive(3, &root_node);
     bool isRemoved = remove(7, &root_node);
     remove(100, &root_node);
 
