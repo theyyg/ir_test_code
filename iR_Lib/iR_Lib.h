@@ -1,4 +1,4 @@
-// iRacing_BWood.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// iR_Lib.h : This file contains the 'main' function. Program execution begins and ends there.
 //
 // MIT License
 //
